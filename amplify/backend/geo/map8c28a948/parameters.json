@@ -1,0 +1,11 @@
+{
+  "authRoleName": {
+    "Ref": "AuthRoleName"
+  },
+  "unauthRoleName": {
+    "Ref": "UnauthRoleName"
+  },
+  "mapName": "map8c28a948",
+  "mapStyle": "VectorHereExplore",
+  "isDefault": true
+}

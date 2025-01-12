@@ -24,6 +24,10 @@
         "identifyTextccf03ece": {},
         "interpretText885123db": {},
         "speechGeneratore65dd29e": {}
+      },
+      "geo": {
+        "map8c28a948": {},
+        "placeIndex3c96a692": {}
       }
     }
   }

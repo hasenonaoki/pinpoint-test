@@ -51,6 +51,41 @@
       "service": "Cognito"
     }
   },
+  "geo": {
+    "map8c28a948": {
+      "accessType": "AuthorizedUsers",
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "viteprojectd55b01e5"
+        }
+      ],
+      "isDefault": true,
+      "mapStyle": "VectorHereExplore",
+      "providerPlugin": "awscloudformation",
+      "service": "Map"
+    },
+    "placeIndex3c96a692": {
+      "accessType": "AuthorizedUsers",
+      "dataProvider": "HERE",
+      "dataSourceIntendedUse": "SingleUse",
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "viteprojectd55b01e5"
+        }
+      ],
+      "isDefault": true,
+      "providerPlugin": "awscloudformation",
+      "service": "PlaceIndex"
+    }
+  },
   "predictions": {
     "identifyLabels4f793187": {
       "dependsOn": [],
