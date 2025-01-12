@@ -17,6 +17,13 @@
       },
       "api": {
         "viteproject": {}
+      },
+      "predictions": {
+        "translateText236812cc": {},
+        "identifyLabels4f793187": {},
+        "identifyTextccf03ece": {},
+        "interpretText885123db": {},
+        "speechGeneratore65dd29e": {}
       }
     }
   }

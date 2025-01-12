@@ -23,4 +23,9 @@ Amplify.configure(awsconfig)
 import AmplifyVue from '@aws-amplify/ui-vue'
 import '@aws-amplify/ui-vue/styles.css'
 
+// Amplify Predictions
+import { AmazonAIPredictionsProvider } from '@aws-amplify/predictions'
+Amplify.addPluggable(new AmazonAIPredictionsProvider())
+// ↑↑↑↑↑↑
+
 createApp(App).use(router).use(vuetify).use(AmplifyVue).mount('#app')

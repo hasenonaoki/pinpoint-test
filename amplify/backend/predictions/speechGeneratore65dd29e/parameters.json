@@ -1,0 +1,14 @@
+{
+    "resourceName": "speechGeneratore65dd29e",
+    "convertPolicyName": "speechGeneratorPolicye65dd29e",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "convertType": "speechGenerator",
+    "language": "ja-JP",
+    "voice": "Takumi",
+    "access": "auth"
+}

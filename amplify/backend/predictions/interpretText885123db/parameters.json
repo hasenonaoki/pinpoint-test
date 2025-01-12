@@ -1,0 +1,13 @@
+{
+    "resourceName": "interpretText885123db",
+    "interpretPolicyName": "interpretPolicy885123db",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "interpretType": "interpretText",
+    "type": "ALL",
+    "access": "auth"
+}

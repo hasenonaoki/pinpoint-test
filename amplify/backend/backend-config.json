@@ -50,5 +50,34 @@
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
     }
+  },
+  "predictions": {
+    "identifyLabels4f793187": {
+      "dependsOn": [],
+      "identifyType": "identifyLabels",
+      "providerPlugin": "awscloudformation",
+      "service": "Rekognition"
+    },
+    "identifyTextccf03ece": {
+      "dependsOn": [],
+      "identifyType": "identifyText",
+      "providerPlugin": "awscloudformation",
+      "service": "Rekognition"
+    },
+    "interpretText885123db": {
+      "interpretType": "interpretText",
+      "providerPlugin": "awscloudformation",
+      "service": "Comprehend"
+    },
+    "speechGeneratore65dd29e": {
+      "convertType": "speechGenerator",
+      "providerPlugin": "awscloudformation",
+      "service": "Polly"
+    },
+    "translateText236812cc": {
+      "convertType": "translateText",
+      "providerPlugin": "awscloudformation",
+      "service": "Translate"
+    }
   }
 }
